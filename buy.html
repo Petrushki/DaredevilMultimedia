@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Buy a Cup</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="buy.html">Buy</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <section class="buy">
+                <h1>Buy a Cup</h1>
+                <p>We've only got one kind, but hey, at least it's nice.</p>
+            
+            <div class="buy-form">
+                <form action="form-handler.php" method-"post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <input type="number" name="number" placeholder="Enter number of cups" required>
+                    <input type="text" name="cup-text" placeholder="Text on cup" required>
+                    <button type="submit" class="btn">Send</button>
+                </form>
+        </section>
+    </body>
+</html>
