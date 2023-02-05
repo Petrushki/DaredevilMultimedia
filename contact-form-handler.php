@@ -3,7 +3,7 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 
-$email from = 'https://petrushki.github.io/DaredevilMultimedia/contact.html';
+$email_from = 'https://petrushki.github.io/DaredevilMultimedia;
 
 $email_subject = 'Message';
 
